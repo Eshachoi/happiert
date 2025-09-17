@@ -14,7 +14,7 @@ header {
     z-index: 10;
 }
 
-.main_banner {
+.header_banner {
     position: absolute;
     z-index: 100;
     top: 0;
@@ -30,20 +30,27 @@ header {
     justify-content: center;
 }
 
+.main {
+    position: relative;
+    height: 885px;
+}
+
+.main_bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 nav {
     display: flex;
-    flex-direction: row;
-    position: absolute;
     z-index: 50;
+    position: absolute;
     justify-content: space-between;
     align-items: center;
     height: 80px;
     padding: 0 30px;
     top: 45px;
     width: 100%;
-    margin-top: 0;
-
 }
 
 .category {
@@ -78,12 +85,6 @@ nav {
    height: 885px;
 }
 
-.main_bg {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 .main_text {
     position: absolute;
     top: 30%;
@@ -102,6 +103,7 @@ nav {
     padding-top: 20px;
     font-weight: 500;
 }
+
 .product {
     
 }
