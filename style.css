@@ -8,7 +8,6 @@
 
 header {
     width: 100%;
-    max-width: 1920px;
     min-width: 300px;
     position: relative;
     z-index: 10;
@@ -104,6 +103,87 @@ nav {
     font-weight: 500;
 }
 
+.product_container {
+  display: flex;
+  margin-top: 60px; 
+  width: 1870px;
+  height: 827px; 
+  margin: 60px 30px 0 60px;
+  gap: 43px;
+}
+
 .product {
-    
+    width: 590px;
+    height: 827px;
+        
+}
+.product_pic {
+    width: 590px;
+    height: 721px;
+    overflow: content-box;
+}
+
+.product_pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product h2 {
+    font-size: 18px;
+    color: #be201f;
+    word-spacing: 1px;
+    margin-top: 10px;
+}
+
+.product h3 {
+    font-size: 18px;
+    color: #be201f;
+    word-spacing: 1px;
+    margin-top: 10px;
+}
+
+.del {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.price_off {
+    width: 87px;
+    height: 36px;
+    border: solid #be201f 1px;
+    border-radius: 35px;
+    background: #fff;
+    padding: 9px 16px;
+    color: #be201f;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.flowing_text {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 150px;
+    background: #fff;
+}
+
+.text_wrap {
+    display: inline-block;
+    animation: flowing_text 45s linear infinite;
+}
+.flowing_text h1 {
+    display: inline-block;
+    font-size: 170px;
+    color: #be201f;
+    animation: flowing_text 280s linear infinite;
+}
+
+@keyframes flowing_text {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
