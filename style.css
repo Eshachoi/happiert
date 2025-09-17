@@ -187,3 +187,56 @@ nav {
         transform: translateX(-50%);
     }
 }
+
+.diet_container {
+    width: 100%;
+    height: 1139px;
+    padding: 0 80px;
+    gap: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diet_box {
+    width: 549px;
+    height: 549px;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin: 10px 0;
+}
+
+.diet_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.diet_txbox {
+    width: 569px;
+    height: 549px;
+    padding: 60px 40px;
+}
+.diet_box h2 {
+    font-size: 45px;
+    color: #be201f;
+    margin: 45px 0 23px 0;
+}
+
+.diet_box p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #be201f;
+    line-height: 1.5;
+}
+
+.diet_box button {
+    margin-top: 280px;
+    width: 157px;
+    height: 46px;
+    border-radius: 45px;
+    border: 1px solid #be201f;
+    background-color: #fff;
+    color: #be201f;
+    font-size: 18px;
+    font-weight: 400;
+}
